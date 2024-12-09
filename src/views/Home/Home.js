@@ -51,7 +51,7 @@ function Home() {
             </div>
         </div>
 
-        <div>
+        <div className='card-main-container'>
             <Card/>
         </div>
     </div>
