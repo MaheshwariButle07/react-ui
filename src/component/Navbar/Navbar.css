@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    background-color: #171d2f;
+    color: white;
+   align-items:center;
+   justify-content: space-around;
+   font-size: 30px;
+   padding: 20px 10px;
+   margin: 0;
+}
+
+.mob-view{
+    display: none;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .mob-view{
+        display:flex;
+    }
+
+    .web-view{
+        display: none;
+    }
+}
