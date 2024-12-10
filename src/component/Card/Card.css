@@ -39,3 +39,11 @@
     justify-content: center;
     
 }
+
+@media screen and (max-width:600px) {
+    .card-container{
+        width: 60%;
+    }
+}
+
+
