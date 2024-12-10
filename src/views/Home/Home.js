@@ -26,9 +26,11 @@ function Home() {
                 <button className='info-btn'>Know More</button>
 
             </div>
-            <div className='info-img'>
 
-                <img src='https://t3.ftcdn.net/jpg/07/13/35/82/360_F_713358254_pM12hayFvGkMbXwU1wERawwC2Tu3Mfpy.jpg' alt='img' />
+
+            <div className='info-img-container'>
+
+                <img className='info-img' src='https://t3.ftcdn.net/jpg/07/13/35/82/360_F_713358254_pM12hayFvGkMbXwU1wERawwC2Tu3Mfpy.jpg' alt='img' />
             </div>
         </div>
 
